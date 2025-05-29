@@ -7,7 +7,7 @@ export async function login(authDetails){
     
         const response = await fetch(`${process.env.REACT_APP_HOST}/login`, requestOptions);
         if(!response.ok){
-                throw { message: response.statusText, status: response.status };
+            throw { message: response.statusText, status: response.status };//eslint-disable-line
         }
         const data = await response.json();
 

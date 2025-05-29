@@ -6,7 +6,7 @@ export const DashBoardEmpty = () => {
             <p>Oops! Your order dashboard looks empty!</p>
             <p>Add eBooks to your cart from our store collection.</p>
         </div>
-        <a href="" type="button" className="text-white bg-blue-700 hover:bg-blue-800 rounded-lg text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none">Continue Shopping <i className="ml-2 bi bi-cart"></i></a>
+        <a href="/" type="button" className="text-white bg-blue-700 hover:bg-blue-800 rounded-lg text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none">Continue Shopping <i className="ml-2 bi bi-cart"></i></a>
     </section>  
   )
 }
